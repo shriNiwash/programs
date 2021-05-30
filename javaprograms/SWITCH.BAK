@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n;
+clrscr();
+printf("\n enter the number :");
+scanf("%d",&n);
+switch(n);
+{
+case1:printf("synday");
+break;
+case2:printf("monday");
+break;
+case3:printf("tuesday");
+break;
+case4:printf("wednesday");
+break;
+case5:printf("thursday");
+break;
+case6:printf("friday");
+break;
+case7:printf("saturday");
+break;
+defult:printf("invalid");
+}
+getch();
+}

@@ -1,0 +1,20 @@
+#include<iostream.h>
+#include<conio.h>
+struct student
+{
+int id;
+char name[20];
+};
+void main()
+{
+struct student st;
+clrscr();
+cout<<"enter the name of student:\n";
+cin>>st.name;
+cout<<"Enter the id of student:\n";
+cin>>st.id;
+cout<<"\nthe name of student is:\t"<<st.name;
+cout<<"\nthe id of student is:\t"<<st.id;
+getch();
+}
+

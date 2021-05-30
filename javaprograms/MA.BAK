@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,*c,*d,sum,sub,mul,div;
+printf("enter your number");
+scanf("%d %d",&a,&b);
+c=&a;
+d=&b;
+sum=*c+*d;
+sub=*c-*d;
+mul=*c**d;
+div=*c%*d;
+printf("sum is:%d",sum);
+printf("subtraction is :%d",sub);
+printf("multiplication is: %d",mul);
+printf("division is :%d",div);
+getch();
+}
